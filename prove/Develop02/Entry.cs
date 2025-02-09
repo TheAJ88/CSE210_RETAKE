@@ -2,13 +2,13 @@ using System;
 
 public class Entry
 {
-    PromptGenerator p = new PromptGenerator();
     public string _prompt;
     public string _entryText;
     public string _date;
     
     public Entry()
     {
+        PromptGenerator p = new PromptGenerator();
         _prompt = p.Prompt();
         DateTime theCurrentTime = DateTime.Now;
         _date = theCurrentTime.ToShortDateString();
