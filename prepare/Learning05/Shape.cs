@@ -21,4 +21,8 @@ public class Shape
     {
         return 0.0;
     }
+    public virtual string GetShape()
+    {
+        return "Shape";
+    }
 }
