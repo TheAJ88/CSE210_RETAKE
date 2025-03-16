@@ -53,6 +53,7 @@ class Program
             }
         Scripture scripture = new Scripture(reference, _scripture);
         while (scripture.AllWordsHidden()!=true)
+        // while (!scripture.AllWordsHidden() && hiddenCount <= count)
         {
             Console.Clear();
             Console.WriteLine(scripture.Display()); 

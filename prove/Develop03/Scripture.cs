@@ -20,7 +20,6 @@ public void HideRandomWords(int count)
 {
     Random random = new Random();
     int hiddenCount = 0; 
-
     while (hiddenCount <= count)
     {
         int index = random.Next(_words.Count); 
