@@ -2,7 +2,7 @@ using System;
 
 class Animation
 {
-    public LoadingAnimation(int time)
+    public void LoadingAnimation(int time)
         {
             int _loadingTime = time;
             while(_loadingTime>0)
@@ -25,5 +25,13 @@ class Animation
             _loadingTime--;
             }
         }
+    public void NumberAnimation()
+    {
+
+    }
+    public void TimerAnimation()
+    {
         
+    }
+
 }

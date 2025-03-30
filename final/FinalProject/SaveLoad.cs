@@ -7,7 +7,7 @@ class SaveLoad
     {
 
     }
-    public void LoadSession()
+    public COURSE LoadSession()
     {
          
     }

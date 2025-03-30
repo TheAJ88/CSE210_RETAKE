@@ -6,4 +6,8 @@ class Practical_Pomodoro : Pomodoro
     {
         
     }
+    public override void presetPomodoro()
+    {
+        
+    }
 }

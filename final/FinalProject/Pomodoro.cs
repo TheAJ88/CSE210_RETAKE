@@ -7,4 +7,8 @@ class Pomodoro
         Console.WriteLine("POOOOOOOMOOOOOOOODDDDDDDDDDOOOOOORRRRRRROOOOOOOOOO!!!");
         
     }
+    public void presetPomodoro()
+    {
+        
+    }
 }
