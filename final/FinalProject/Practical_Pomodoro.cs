@@ -2,12 +2,14 @@ using System;
 
 class Practical_Pomodoro : Pomodoro
 {
-    public override void SetPomodoro()
+    private int _pomodoroSessions;
+    public override void SetPomodoro(int _courseTime)
     {
-        
+        _pomodoroSessions = _courseTime+2;
     }
-    public override void presetPomodoro()
+    public override void DiffPomodoro()
     {
-        
+        Console.WriteLine("Welcome to your Practical Pomodoro session! Please continue to practice your work!");
+        presetPomodoro(_pomodoroSessions);
     }
 }

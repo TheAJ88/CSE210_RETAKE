@@ -25,13 +25,4 @@ class Animation
             _loadingTime--;
             }
         }
-    public void NumberAnimation()
-    {
-
-    }
-    public void TimerAnimation()
-    {
-        
-    }
-
 }
