@@ -8,12 +8,12 @@ class MainMenu
     {
         Console.WriteLine("Menu Options: ");
         Console.WriteLine(@"
-        1. Create New Goal
-        2. List Goals
-        3. Save Goals
-        4. Load Goals
-        5. Record Event
-        6. Quit");
+1. Create New Goal
+2. List Goals
+3. Save Goals
+4. Load Goals
+5. Record Event
+6. Quit");
         Console.WriteLine();
         Console.Write("Select a choice from the menu: ");
         _option = Console.ReadLine();
@@ -23,9 +23,9 @@ class MainMenu
     {
         Console.WriteLine("The Goals are: ");
         Console.WriteLine(@"
-        1. Simple Goal
-        2. Eternal Goals
-        3. Checklist Goal");
+1. Simple Goal
+2. Eternal Goals
+3. Checklist Goal");
         Console.WriteLine();
         Console.Write("What type of goal would you like to create? ");
         _option = Console.ReadLine();
